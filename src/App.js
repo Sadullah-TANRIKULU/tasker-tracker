@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+// const arr = [
+//   { id: 2, name: "apple" },
+//   { id: 3, name: "orange" },
+//   { id: 4, name: "grape" }
+// ];
+
+export default function App() {
+//   const [items, setItems] = React.useState(arr);
+
+//   const deleteItem = function (index) { 
+//     return () => setItems((x) => x.filter((_, i) => i !== index));
+//   }
+//   console.log(items);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       {/* {items.map((it, a) => {
+         return (
+           <div key={it.id}>
+             {it.name} <button onClick={() => handleDelete(a.id)}>delete</button>
+           </div>
+         );
+       })} */}
+    </>
   );
-}
+// }
 
-export default App;
+// const handleDelete = (id) => {
+//   setData1(data1.filter((item) => item.id !== id));
+//   console.log(id);
+//   console.log(data1);
+};
+
+
+// onClick={() => handleDelete(item.id)}
+
+
